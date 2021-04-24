@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'mongodb'),
 
     /*
     |--------------------------------------------------------------------------
@@ -98,7 +98,7 @@ return [
             'username' => env('DB_USERNAME'),
             'password' => env('DB_PASSWORD'),
             'options' => [
-                'database' => env('DB_AUTHENTICATION_DATABASE', 'lab2mongo')//  // sets the authentication database required by mongo 3
+                'database' => env('DB_AUTHENTICATION_DATABASE', 'lab2mongo')
             ]
         ],
 
