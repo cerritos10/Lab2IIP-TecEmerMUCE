@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Parcial en Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,8 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Mi Parcial en Laravel
                 </div>
+                <div class="title m-b-md">
+                    Milton Uriel Cerritos Espino
+                </div>
+
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>

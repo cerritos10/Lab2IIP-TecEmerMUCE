@@ -11,6 +11,13 @@ class HomeController extends Controller
      *
      * @return void
      */
+
+    public function indexprod()
+    {
+        return view('productos.index');
+    }
+
+    
     public function __construct()
     {
         $this->middleware('auth');
